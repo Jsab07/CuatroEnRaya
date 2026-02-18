@@ -1,11 +1,17 @@
 package org.iesalandalus.programacion.cuatroenraya.modelo;
 
 public enum Ficha {
-    AZUL,
-    VERDE;
+    AZUL("A"),
+    VERDE("V");
+
+    private String simbolo;
+
+    private Ficha(String simbolo) {
+        this.simbolo = simbolo;
+    }
 
     @Override
     public String toString() {
-        return String.format(" ");
+        return simbolo;
     }
 }
