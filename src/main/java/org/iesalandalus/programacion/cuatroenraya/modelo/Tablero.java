@@ -15,5 +15,7 @@ public class Tablero {
         return !casillas[0][columna].estaOcupada();
     }
 
-    public boolean estaVacio()
+    public boolean estaVacio(){
+
+    }
 }
