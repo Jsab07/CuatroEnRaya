@@ -8,7 +8,7 @@ public class Tablero {
     private Casilla[][] casillas;
 
     public Tablero() {
-        casillas = new Casilla[FILAS, COLUMNAS];
+        casillas = new Casilla[FILAS, COLUMNAS]; //mal
     }
 
     private boolean columnaVacia(int columna) {
